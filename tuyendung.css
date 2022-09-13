@@ -1,0 +1,289 @@
+/*body*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+h6 {
+    font-weight: bold;
+    font-size: larger;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    color: #242934;
+    font-size: 14px;
+    font-family: "Heebo", sans-serif;
+}
+
+/*header*/
+header {
+    background-color: #f3f6f9;
+    padding: 5px;
+}
+
+div.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.nav>div.nav-favicon>a>img:hover {
+    border-radius: 100px;
+    box-shadow: 0 0 0 0.25rem rgb(0 156 255 / 25%);
+}
+
+/*header-favicon*/
+div.nav-favicon>a>img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+
+/*header-search*/
+div.nav-search {
+    width: 30%;
+}
+
+div.nav-search>form>input {
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+}
+
+input:hover {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgb(0 156 255 / 25%);
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.25rem rgb(0 156 255 / 25%);
+}
+
+/*headed-login*/
+div.nav-login {
+    width: 15%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+div.nav-login>div {
+    width: 50%;
+    border-radius: 50px;
+    margin: 2px;
+}
+
+div.nav-login>div>button {
+    background-color: #ffffff;
+    border: none;
+    padding: 8px;
+    border-radius: 50px;
+    height: 100%;
+    width: 100%;
+}
+
+div.nav-login>div:hover {
+    box-shadow: 0 0 0 0.25rem rgb(0 156 255 / 25%);
+    color: rgb(0 156 255 / 25%);
+}
+
+/*footer*/
+footer {
+    background-color: #f3f6f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+div.footer {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+div.footer>div {
+    margin: 0 5px;
+}
+
+div.footer>div>a>i {
+    font-size: xx-large;
+    color: #242934;
+}
+
+div.footer>div>a>i:hover {
+    color: rgb(0 156 255 / 25%);
+}
+
+/*section*/
+section.products {
+    width: 90%;
+    height: 100%;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+
+div.products-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+div.products-products {
+    display: flex;
+    height: 45%;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+div.products-products>div {
+    background-color: #f3f6f9;
+    width: 25%;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+div.products-products>div>a {
+    background-color: #f3f6f9;
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #242934;
+    padding: 10px;
+}
+
+div.products-products>div:hover {
+    box-shadow: 0 0 0 0.25rem rgb(0 156 255 / 25%);
+    color: rgb(0 156 255 / 25%);
+}
+
+/*login*/
+section.login {
+    background-color: #f3f6f9;
+    width: 30%;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+div.login-name {
+    text-align: center;
+    font-size: x-large;
+}
+
+div.login-form {
+    margin: 30px 10px 0 10px;
+}
+
+div#login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+div#login>input {
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    height: 50px;
+    padding-left: 10px;
+}
+
+div#button {
+    text-align: center;
+}
+
+div#button>button {
+    background-color: #ffffff;
+    border: none;
+    padding: 8px;
+    border-radius: 50px;
+    height: 40px;
+    width: 25%;
+    margin: 10px;
+}
+
+div#button>button:hover {
+    box-shadow: 0 0 0 0.25rem rgb(0 156 255 / 25%);
+    color: rgb(0 156 255 / 25%);
+}
+
+/*charts4*/
+section.charts4 {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+section.charts4>div {
+    background-color: #f3f6f9;
+    width: 25%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 2%;
+}
+
+section.charts4>div:hover {
+    box-shadow: 0 0 0 0.25rem rgb(0 156 255 / 25%);
+}
+
+section.charts4>div>div {
+    width: 50%;
+}
+
+section.charts4>div>i {
+    color: #009cff;
+    font-size: 3em;
+    margin-left: 20%;
+}
+
+/*charts2*/
+section.charts2 {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+}
+
+div#charts2 {
+    background-color: #f3f6f9;
+    width: 50%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    display: block;
+}
+
+div#charts2-name {
+    margin-bottom: 20px;
+}
+
+div#charts2:hover {
+    box-shadow: 0 0 0 0.25rem rgb(0 156 255 / 25%);
+}
