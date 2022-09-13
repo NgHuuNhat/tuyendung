@@ -243,11 +243,11 @@ section.charts4>div {
     width: 25%;
     margin: 10px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     border-radius: 10px;
     margin: 10px;
-    padding: 2%;
+    padding: 10px 0;
 }
 
 section.charts4>div:hover {
@@ -260,8 +260,6 @@ section.charts4>div>div {
 
 section.charts4>div>i {
     color: #009cff;
-    font-size: 3em;
-    margin-left: 20%;
 }
 
 /*charts2*/
