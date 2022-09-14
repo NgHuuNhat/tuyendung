@@ -82,24 +82,26 @@ div.nav-login {
     align-items: center;
 }
 
-div.nav-login>div {
+div.nav-login>a {
     width: 50%;
     border-radius: 50px;
-    margin: 2px;
+    margin: 0 2px;
+    text-decoration: none;
+    color: #242934;
 }
 
-div.nav-login>div>button {
+div.nav-login>a:hover {
+    box-shadow: 0 0 0 0.25rem rgb(0 156 255 / 25%);
+    color: rgb(0 156 255 / 25%);
+}
+
+div.nav-login>a>button {
     background-color: #ffffff;
     border: none;
-    padding: 8px;
     border-radius: 50px;
     height: 100%;
     width: 100%;
-}
-
-div.nav-login>div:hover {
-    box-shadow: 0 0 0 0.25rem rgb(0 156 255 / 25%);
-    color: rgb(0 156 255 / 25%);
+    padding: 8px;
 }
 
 /*footer*/
@@ -132,7 +134,7 @@ div.footer>div>a>i:hover {
     color: rgb(0 156 255 / 25%);
 }
 
-/*section*/
+/*section-products*/
 section.products {
     width: 90%;
     height: 100%;
@@ -176,12 +178,12 @@ div.products-products>div:hover {
     color: rgb(0 156 255 / 25%);
 }
 
-/*login*/
+/*section-login*/
 section.login {
     background-color: #f3f6f9;
     width: 30%;
     margin: 30px auto;
-    padding: 10px;
+    padding: 20px 10px;
     border-radius: 20px;
 }
 
@@ -247,7 +249,7 @@ section.charts4>div {
     align-items: center;
     border-radius: 10px;
     margin: 10px;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 
 section.charts4>div:hover {

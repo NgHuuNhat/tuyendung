@@ -1,0 +1,57 @@
+/*section-login*/
+section.signup {
+    background-color: #f3f6f9;
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px 10px;
+    border-radius: 20px;
+    
+}
+
+div.signup-name {
+    text-align: center;
+    font-size: x-large;
+}
+
+div.signup-form {
+    display: grid;
+    grid-auto-rows: minmax(min-content,max-content);
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-gap: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+div#signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div#signup>input {
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: none;
+    height: 50px;
+    padding-left: 10px;
+}
+
+div#button {
+    text-align: center;
+}
+
+div#button>button {
+    background-color: #ffffff;
+    border: none;
+    padding: 8px;
+    border-radius: 50px;
+    height: 40px;
+    width: 25%;
+    margin: 10px;
+}
+
+div#button>button:hover {
+    box-shadow: 0 0 0 0.25rem rgb(0 156 255 / 25%);
+    color: rgb(0 156 255 / 25%);
+}
