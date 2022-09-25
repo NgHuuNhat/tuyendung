@@ -3,13 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-}
-
-h6 {
-    font-weight: bold;
-    font-size: larger;
-    margin: 0;
+    font-family: "Heebo", sans-serif;
 }
 
 html {
@@ -25,16 +19,36 @@ body {
     font-family: "Heebo", sans-serif;
 }
 
+h6 {
+    font-weight: bold;
+    font-size: larger;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+ a:focus {
+    text-decoration: none;
+ }
+
 /*header*/
 header {
     background-color: #f3f6f9;
     padding: 5px;
+    margin-bottom: 50px;
 }
 
 div.nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    width: 100%;
+    margin: auto;
 }
 
 div.nav>div.nav-favicon>a>img:hover {
@@ -52,7 +66,8 @@ div.nav-favicon>a>img {
 
 /*header-search*/
 div.nav-search {
-    width: 30%;
+    width: 50%;
+    padding-left: 12%;
 }
 
 div.nav-search>form>input {
@@ -80,6 +95,7 @@ div.nav-login {
     display: flex;
     text-align: center;
     align-items: center;
+    margin-left: 2%;
 }
 
 div.nav-login>a {
@@ -114,25 +130,6 @@ footer {
     flex-shrink: 0;
 }
 
-div.footer {
-    display: flex;
-    flex-direction: center;
-    align-items: center;
-    margin-top: 10px;
-}
-
-div.footer>div {
-    margin: 0 5px;
-}
-
-div.footer>div>a>i {
-    font-size: xx-large;
-    color: #242934;
-}
-
-div.footer>div>a>i:hover {
-    color: rgb(0 156 255 / 25%);
-}
 
 /*section-products*/
 section.products {
@@ -230,9 +227,9 @@ div#button>button:hover {
     color: rgb(0 156 255 / 25%);
 }
 
-/*charts4*/
+/*section-charts4*/
 section.charts4 {
-    width: 90%;
+    max-width: 90%;
     margin: 10px auto;
     display: flex;
     justify-content: space-between;
@@ -242,15 +239,17 @@ section.charts4 {
 
 section.charts4>div {
     background-color: #f3f6f9;
-    width: 25%;
-    margin: 10px auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 25%;
+    margin: 10px auto;
     border-radius: 10px;
     margin: 10px;
     padding: 20px 0;
 }
+
+section.charts4>div>
 
 section.charts4>div:hover {
     box-shadow: 0 0 0 0.25rem rgb(0 156 255 / 25%);
@@ -264,7 +263,7 @@ section.charts4>div>i {
     color: #009cff;
 }
 
-/*charts2*/
+/*section-charts2*/
 section.charts2 {
     width: 90%;
     margin: 10px auto;
